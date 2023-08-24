@@ -2,13 +2,10 @@ import setuptools
 
 __version__ = "0.0.1"
 __author__ = "Tyler Bruno"
-
+INSTALL_REQUIRES = []
 
 with open("README.md", "r", encoding="utf-8") as file:
     README = file.read()
-
-with open("requirements.txt", "r") as file:
-    INSTALL_REQUIRES = file.read().splitlines()
 
 setuptools.setup(
     name="descriptify",
